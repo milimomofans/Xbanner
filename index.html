@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>banner插件演示</title>
+</head>
+<body>
+    <div id="test1">
+        <div>
+            <img src="./img/banner1.jpg" alt="">
+            <img src="./img/banner2.jpg" alt="">
+            <img src="./img/banner3.jpg" alt="">
+            <img src="./img/banner4.jpg" alt="">
+        </div>
+    </div>
+
+    <div id ='test2'>
+        <div>
+            <img src="./img/banner1.jpg" alt="">
+            <img src="./img/banner2.jpg" alt="">
+            <img src="./img/banner3.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="Xbanner.js"></script>
+    <script>
+       window.onload = function(){
+           var a  = new Xbanner('test1',600,300)
+           var b = new Xbanner('test2',700,200)
+       }
+    </script>
+</body>
+</html>
